@@ -28,7 +28,7 @@ A module is a reusable and encapsulated unit of Terraform code. Modules allow yo
 Terraform uses configuration files (often with a .tf extension) to define the desired infrastructure state.
 Terraform maintains a state file (often named terraform.tfstate) that keeps track of the current state of your infrastructure.
 
-# Install Terraform
+# Install Terraform 
 Windows
 Install Terraform from the Downloads Page
 (or)
@@ -37,3 +37,4 @@ Linux
 Follow the steps provided in the Downloads Page for Linux.
 macOS
 Follow the steps provided in the Downloads Page for macOS.
+Page link - https://developer.hashicorp.com/terraform/install
