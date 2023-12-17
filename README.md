@@ -38,3 +38,23 @@ Follow the steps provided in the Downloads Page for Linux.
 macOS
 Follow the steps provided in the Downloads Page for macOS.
 Page link - https://developer.hashicorp.com/terraform/install
+
+# AWS CLI 
+
+The AWS Command Line Interface (CLI) is a unified tool provided by Amazon Web Services (AWS) for managing your AWS services from the command line. It allows you to interact with AWS services directly through commands rather than using the AWS Management Console. Here's a basic overview of how to install and use the AWS CLI
+
+The AWS CLI is built on top of Python, so you need to have Python installed on your system. You can download and install Python from the official Python website.
+
+If you have python installed
+Steps to install  AWS CLI using Python 
+Once Python is installed, open a command prompt or terminal and run the following command to install the AWS CLI using pip (Python package manager)
+"pip install awscli"
+
+ Verify the installation:
+ "aws --version"
+ Configure AWS credentials:
+
+Before using the AWS CLI, you need to configure your AWS credentials. Run the following command and follow the prompts:
+"aws configure"
+
+ Also you can refer this documents "https://docs.aws.amazon.com/cli/"
